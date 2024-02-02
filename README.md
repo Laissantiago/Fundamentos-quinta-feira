@@ -16,7 +16,7 @@ git add .
 ```
 
 ```
-git commit -n "inserir mensagem aqui"
+git commit -m "inserir mensagem aqui"
 ```
 
 #### Sincronizar o repositório local 
@@ -32,13 +32,21 @@ git push origin main
 
 ```
 ls
+```
 cd
+```
 cd..
+```
 mkdir
+```
 history
+```
 cat
+```
 rm -r caminho/dos arquivos
+```
 cp caminho_origem caminho_destino
+```
 mv caminho_origem caminho_destino
 ```
 
