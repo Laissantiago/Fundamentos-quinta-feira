@@ -73,4 +73,17 @@ mv caminho_origem caminho_destino
 - `Google Colab`
 
 ## Ambiente virtual
-- 
+
+- Software utilizado para a gestão do ambiente: `conda``
+
+```
+conda env create -f environment.yml
+```
+
+```
+conda activate nome_ambiente
+```
+
+```
+conda env update
+```
