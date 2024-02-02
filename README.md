@@ -68,8 +68,9 @@ mv caminho_origem caminho_destino
 
 ### Editor de código
 
--`Vscode`
--`Google Colab`
+- `Vscode`
+
+- `Google Colab`
 
 ## Ambiente virtual
 - 
