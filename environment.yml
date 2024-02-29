@@ -9,3 +9,5 @@ dependencies:
   - selenium
   - pandas
   - matplotlib
+  - webdriver-manager
+  
