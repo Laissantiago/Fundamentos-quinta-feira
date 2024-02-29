@@ -41,7 +41,7 @@ def extrair_infos(lista_links):
             link = nota.a["href"]
             # span class="subtitle"
             try:
-                numero = nota.find("span", attrs={"class": "subtitle"}).text.strip().split()[-1]
+                numero = nota.find("span", attrs={"class": "subtitle"}).text.strip().split()[-1].split("/")[0]
             except AttributeError as erro:
                 if str(erro) == "'NoneType' object has no attribute 'text'":
                     numero = "NA"
