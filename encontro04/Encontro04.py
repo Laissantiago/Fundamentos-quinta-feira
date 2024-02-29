@@ -41,8 +41,7 @@ def extrair_infos(lista_links):
             link = nota.a["href"]
             # span class="subtitle"
             try:
-                numero = nota.find("span", attrs={"class": "subtitle"}).text.strip().split()[-1] 
-                numero = nota.find("span", attrs={"class": "subtitle"}).text.strip().split()[-1].split("/")[0]
+                numero = nota.find("span", attrs={"class": "subtitle"}).text.strip().split()[-1].or.split("/")[0]
             except AttributeError as erro:
                 if str(erro) == "'NoneType' object has no attribute 'text'":
                     numero = "NA"
@@ -62,8 +61,8 @@ def percorrer_paginas(url_base):
     # https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/notas-a-imprensa?b_start:int=60
     # são 5040 notas e cada pagina tem 30 notas
     lista_de_links = []
-    contador = 30
-    while contador == 30:
+    contador = 5010
+    while contador == 5010:
         link = url_base + str(contador)
         contador = contador - 30
         lista_de_links.append(link)
