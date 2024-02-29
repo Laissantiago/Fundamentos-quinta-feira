@@ -69,7 +69,6 @@ def percorrer_paginas(url_base):
     return lista_de_links
 
 
-
 def main():
     url_base = "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/notas-a-imprensa?b_start:int="
     lista_links = percorrer_paginas(url_base)
