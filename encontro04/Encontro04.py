@@ -86,7 +86,7 @@ def extrair_infos(lista_links):
             inserir_bd(titulo, link, data, horario,data_atualizada, horario_atualizado,paragrafos)
 
             print("#####")
-
+            
 def acessar_pagina(link):
     """responsável por acessar as paginas da internet"""
     pagina = requests.get(link)
